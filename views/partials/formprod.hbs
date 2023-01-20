@@ -1,0 +1,38 @@
+
+
+    <h1 style="color:blue;">PRODUCTOS </h1>
+    <br>
+
+<div class="row g-3 align-items-center">
+<form action="javascript:enviarProducto()" >
+            <div class="mb-3">
+                <label for="nombre" class="form-label">Producto</label>
+                <input type="text" class="form-control" id="nombre" aria-describedby="userComment">
+                <small id="userComment" class="form-text text-muted">Producto que se utilizara al enviarlo.</small>
+            </div>
+            <div class="mb-3">
+                <label for="precio" class="form-label">Precio:</label>
+                <input type="text"  class="form-control" id="precio" ></input>
+            </div>  
+            <div class="mb-3">
+                <label for="descrProducto" class="form-label">Descripcion</label>
+                <input type="text"  class="form-control" id="descrProducto" ></input>
+            </div>  
+            <div class="mb-3">
+                <label for="codigoProd" class="form-label">Codigo</label>
+                <input type="text"  class="form-control" id="codigoProd" ></input>
+            </div> 
+            <div class="mb-3">
+                <label for="imagenProd" class="form-label">Imagen:</label>
+                <input type="text"  class="form-control" id="imagenProd" ></input>
+            </div>  
+            <div class="mb-3">
+                <label for="stockProd" class="form-label">Stock:</label>
+                <input type="text"  class="form-control" id="stockProd" ></input>
+            </div> 
+            <input type="hidden" id="idProducto">
+            <input type="hidden" id="timestamp">
+ 
+            <button class="btn btn-success mt-3 mb-5" type="submit">Enviar</button>
+        </form>
+</div>

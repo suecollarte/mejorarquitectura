@@ -1,1 +1,31 @@
 
+   <h1>Administracion Carrito</h1>
+        <form onsubmit="javascript:enviarCarrito()">
+             <input type="hidden"  id="idCarrito"  value="1">
+             
+             
+            <div class="mb-3">
+                <label for="nombre">Nombre</label>
+                <input type="text" class="form-control" id="nombreC"  aria-describedby="userComment">
+                </div>
+           <div class="mb-3">
+                <label for="descripcion">descripcion</label>
+                <input type="text" class="form-control" id="descripcionC"  name="descripcionC" aria-describedby="userComment">
+                
+            </div> 
+            <div class="mb-3">
+            <label>codigo</label>
+            <input type="text" class="form-control" id="codigoC"   aria-describedby="userComment">
+            </div>
+            <div class="mb-3">
+
+            <label>stock</label><input type="text" class="form-control" id="stockC"  aria-describedby="userComment">
+            </div>
+             <div class="mb-3">
+            <label>precio</label><input type="text" class="form-control" id="precioC"   aria-describedby="userComment">
+            </div>
+            <div class="mb-3">
+            <label>foto</label><input type="text" class="form-control" id="fotoC"   aria-describedby="userComment">
+            </div>
+            <input type="submit" class="btn btn-success" >
+        </form>
